@@ -57,7 +57,7 @@
   export default {
       head() {
       return {
-        title: 'Login_page',
+        title: 'Login',
         meta: [
           {
             hid: 'description',
