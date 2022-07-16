@@ -40,12 +40,6 @@
                   <div class="pt-1 mb-1">
                     <button class="btn btn-dark btn-lg btn-block" type="button">Login</button>
                   </div>
-
-                  <!-- <a class="small text-muted" href="#!">Forgot password?</a>
-                  <p class="mb-5 pb-lg-2" style="color: #393f81;">Don't have an account? <a href="#!"
-                      style="color: #393f81;">Register here</a></p>
-                  <a href="#!" class="small text-muted">Terms of use.</a>
-                  <a href="#!" class="small text-muted">Privacy policy</a> -->
                 </form>
 
               </div>
@@ -56,8 +50,6 @@
     </div>
   </div>
 </section>
-
-
   </div>
 </template>
 
@@ -65,12 +57,12 @@
   export default {
       head() {
       return {
-        title: 'Welcome',
+        title: 'Login_page',
         meta: [
           {
             hid: 'description',
             name: 'description',
-            content: 'Manage your inventory with us '
+            content: 'Login and continue taking inventory '
 
           }
         ]
