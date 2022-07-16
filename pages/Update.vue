@@ -7,22 +7,19 @@
       <div class="col col-xl-6">
         <div class="card" style="border-radius: 1rem;">
           <div class="row g-0">
-
             <div class="col-md-6 col-lg-7 d-flex align-items-center">
               <div class="card-body p-4 p-lg-5 text-black">
-
-
                   <div class="pt-1 mb-1">
-                    <button class="btn btn-dark btn-lg btn-block" type="button">Login</button>
+                    <button class="btn btn-dark btn-lg btn-block" type="button">Update</button>
                   </div>
                     <div class="pt-1 mb-1">
-                    <button class="btn btn-dark btn-lg btn-block" type="button">Login</button>
+                    <button class="btn btn-dark btn-lg btn-block" type="button">Receive</button>
                   </div>
                     <div class="pt-1 mb-1">
-                    <button class="btn btn-dark btn-lg btn-block" type="button">Login</button>
+                    <button class="btn btn-dark btn-lg btn-block" type="button">Outbound</button>
                   </div>
                     <div class="pt-1 mb-1">
-                    <button class="btn btn-dark btn-lg btn-block" type="button">Login</button>
+                    <button class="btn btn-dark btn-lg btn-block" type="button">Reports</button>
                   </div>
 
               </div>
