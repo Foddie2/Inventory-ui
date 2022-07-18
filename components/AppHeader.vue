@@ -6,10 +6,7 @@
   <div class="container">
       <div class="container-fluid">
     <a class="navbar-brand">IMS</a>
-
-
     <div class="d-flex input-group w-auto">
-
       <button type="button" class="btn btn-light btn-rounded me-3 d-flex  mr-4">
         Menu
       </button>

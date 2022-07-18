@@ -2,7 +2,11 @@
 <template>
   <div>
      <AppHeader/>
-    <h1>Outbound page  Component</h1>
+     <div class="container">
+        <h1>Outbound page  Component</h1>
+
+     </div>
+
 
   </div>
 </template>

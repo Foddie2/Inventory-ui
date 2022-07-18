@@ -2,8 +2,10 @@
 <template>
   <div>
     <AppHeader/>
-    <h2>Home component</h2>
+ <div class="container">
+     <h2>Home component</h2>
     <p>table component should be here </p>
+ </div>
   </div>
 </template>
 

@@ -2,7 +2,9 @@
 <template>
   <div>
     <AppHeader/>
-    <h1>Receive page component</h1>
+  <div class="container">
+      <h1>Receive page component</h1>
+  </div>
 
   </div>
 </template>
