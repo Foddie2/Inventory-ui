@@ -1,6 +1,7 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <div>
+     <AppHeader/>
     <h1>Outbound page  Component</h1>
 
   </div>
