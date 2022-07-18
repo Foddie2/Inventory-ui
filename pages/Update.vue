@@ -1,37 +1,68 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <div>
-  <section class="vh-100" style="background-color: #FCFAFA;">
-  <div class="container py-5 h-100">
-    <div class="row d-flex justify-content-center align-items-center h-100">
-      <div class="col col-xl-6">
-        <div class="card" style="border-radius: 1rem;">
-          <div class="row g-0">
-              <div class="card-body p-4 p-lg-5 text-black">
-                  <div class="pt-1 mb-1">
-                    <button class="btn btn-dark btn-lg btn-block" type="button">Update</button>
-                  </div>
-                    <div class="pt-4 mb-1">
-                    <button class="btn btn-dark btn-lg btn-block" type="button">Receive</button>
-                  </div>
-                    <div class="pt-4 mb-1">
-                    <button class="btn btn-dark btn-lg btn-block" type="button">Outbound</button>
-                  </div>
-                    <div class="pt-4 mb-1">
-                    <button class="btn btn-dark btn-lg btn-block" type="button">Reports</button>
-                  </div>
-              </div>
-            </div>
-          </div>
+  <AppHeader/>
+  <div class="container">
+    <h2>Update page</h2>
+      <table class="table">
+  <thead>
+    <tr>
+      <!-- <th scope="col">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
         </div>
-    </div>
+      </th> -->
+      <th scope="col">Stock ID</th>
+      <th scope="col">Category Name</th>
+      <th scope="col">Currency Quantity</th>
+      <th scope="col">Unit cost</th>
+      <th scope="col">Total Cost</th>
+      <th scope="col">Btn</th>
+      <th scope="col">Check All</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+        </div>
+      </th>
+      <td>Sit</td>
+      <td>Amet</td>
+      <td>Consectetur</td>
+    </tr>
+    <tr>
+      <th scope="row">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+        </div>
+      </th>
+      <td>Adipisicing</td>
+      <td>Elit</td>
+      <td>Sint</td>
+    </tr>
+    <tr>
+      <th scope="row">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+        </div>
+      </th>
+      <td>Hic</td>
+      <td>Fugiat</td>
+      <td>Temporibus</td>
+    </tr>
+  </tbody>
+</table>
   </div>
-</section>
+
+
 
   </div>
 </template>
 
 <script>
+import AppHeader from "../components/AppHeader.vue";
   export default {
      head() {
       return {
@@ -45,9 +76,10 @@
           }
         ]
       };
-    }
+    },
+    components: { AppHeader }
 
-  }
+  };
 </script>
 
 <style lang="scss" scoped>
