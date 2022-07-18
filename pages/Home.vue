@@ -9,7 +9,7 @@
     <a class="navbar-brand">IMS</a>
 
 
-    <form class="d-flex input-group w-auto me-5">
+    <form class="d-flex input-group w-auto">
 
       <button type="button" class="btn btn-primary me-3 d-flex ">
           Refresh
