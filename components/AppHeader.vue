@@ -1,19 +1,18 @@
 <template>
 <div>
-
 <nav class="navbar navbar-expand-lg navbar-light">
   <!-- Container wrapper -->
   <div class="container">
       <div class="container-fluid">
     <a class="navbar-brand">IMS</a>
     <div class="d-flex input-group w-auto">
-      <button type="button" class="btn btn-light btn-rounded me-3 d-flex  mr-4">
+      <button type="button" class="btn btn-dark btn-rounded me-3 d-flex  mr-4">
         Menu
       </button>
-      <button type="button" class="btn btn-light btn-rounded me-3 d-flex  mr-4">
+      <button type="button" class="btn btn-dark btn-rounded me-3 d-flex  mr-4">
         Home
       </button>
-      <button type="button" class="btn btn-light btn-rounded me-3 d-flex  mr-4">
+      <button type="button" class="btn btn-dark btn-rounded me-3 d-flex  mr-4">
         Logout
       </button>
       <span class="input-group-text border-0">
@@ -24,11 +23,8 @@
   </div>
   <!-- Container wrapper -->
 </nav>
-
-
 </div>
 </template>
-
 <script>
   export default {
 
