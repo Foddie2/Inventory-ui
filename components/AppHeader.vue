@@ -1,5 +1,7 @@
 <template>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<div>
+
+<nav class="navbar navbar-expand-lg navbar-light">
   <!-- Container wrapper -->
   <div class="container">
       <div class="container-fluid">
@@ -8,13 +10,13 @@
 
     <div class="d-flex input-group w-auto">
 
-      <button type="button" class="btn btn-primary me-3 d-flex  mr-4">
+      <button type="button" class="btn btn-light btn-rounded me-3 d-flex  mr-4">
         Menu
       </button>
-      <button type="button" class="btn btn-primary me-3 d-flex  mr-4">
+      <button type="button" class="btn btn-light btn-rounded me-3 d-flex  mr-4">
         Home
       </button>
-      <button type="button" class="btn btn-primary me-3 d-flex  mr-4">
+      <button type="button" class="btn btn-light btn-rounded me-3 d-flex  mr-4">
         Logout
       </button>
       <span class="input-group-text border-0">
@@ -25,7 +27,9 @@
   </div>
   <!-- Container wrapper -->
 </nav>
-<!-- Navbar -->
+
+
+</div>
 </template>
 
 <script>
