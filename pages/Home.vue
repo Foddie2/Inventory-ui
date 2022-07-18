@@ -9,16 +9,24 @@
           <div class="row g-0">
               <div class="card-body p-4 p-lg-5 text-black">
                   <div class="pt-1 mb-1">
+                    <NuxtLink to="/Update">
                     <button class="btn btn-dark btn-lg btn-block" type="button">Update</button>
+                    </NuxtLink>
                   </div>
                     <div class="pt-4 mb-1">
+                      <NuxtLink to="/Receive">
                     <button class="btn btn-dark btn-lg btn-block" type="button">Receive</button>
+                    </NuxtLink>
                   </div>
                     <div class="pt-4 mb-1">
+                      <NuxtLink to="/Outbound">
                     <button class="btn btn-dark btn-lg btn-block" type="button">Outbound</button>
+                    </NuxtLink>
                   </div>
                     <div class="pt-4 mb-1">
+                      <NuxtLink to="/Reports">
                     <button class="btn btn-dark btn-lg btn-block" type="button">Reports</button>
+                     </NuxtLink>
                   </div>
               </div>
             </div>

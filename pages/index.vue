@@ -36,7 +36,11 @@
                   </div>
 
                   <div class="pt-1 mb-1">
+                    <NuxtLink to="/Home">
                     <button class="btn btn-dark btn-lg btn-block" type="button">Login</button>
+                    </NuxtLink>
+
+
                   </div>
 
                 </form>
