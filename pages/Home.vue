@@ -2,8 +2,8 @@
 <template>
   <div>
     <AppHeader/>
-
-
+    <h2>Home component</h2>
+    <p>table component should be here </p>
   </div>
 </template>
 
