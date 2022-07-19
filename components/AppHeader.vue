@@ -7,17 +7,17 @@
     <a class="navbar-brand">IMS</a>
     <div class="d-flex input-group w-auto">
       <NuxtLink to="/Home">
-      <button type="button" class="btn btn-dark btn-rounded me-3 d-flex  mr-4">
+      <button type="button" class="btn btn-light btn-rounded me-3 d-flex  mr-4 ">
         Menu
       </button>
       </NuxtLink>
       <NuxtLink to="/">
-      <button type="button" class="btn btn-dark btn-rounded me-3 d-flex  mr-4">
+      <button type="button" class="btn btn-light btn-rounded me-3 d-flex  mr-4">
         Home
       </button>
       </NuxtLink>
       <NuxtLink to="/">
-      <button type="button" class="btn btn-dark btn-rounded me-3 d-flex  mr-4">
+      <button type="button" class="btn btn-light btn-rounded me-3 d-flex  mr-4">
         Logout
       </button>
       </NuxtLink>

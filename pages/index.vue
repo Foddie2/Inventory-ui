@@ -22,22 +22,22 @@
                   <h5 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Welcome back, Sign into your account and get started</h5>
 
                   <div class="form-outline mb-1">
-                    <input type="email" id="form2Example17" class="form-control form-control-lg" />
+                    <input type="email" id="form2Example17" class="form-control form-control-lg shadow-none" />
                     <label class="form-label" for="form2Example17">Name</label>
                   </div>
                   <div class="form-outline mb-1">
-                    <input type="email" id="form2Example17" class="form-control form-control-lg" />
+                    <input type="email" id="form2Example17" class="form-control form-control-lg shadow-none" />
                     <label class="form-label" for="form2Example17">Sales ID</label>
                   </div>
 
                   <div class="form-outline mb-1">
-                    <input type="password" id="form2Example27" class="form-control form-control-lg" />
+                    <input type="password" id="form2Example27" class="form-control form-control-lg shadow-none" />
                     <label class="form-label" for="form2Example27">Password</label>
                   </div>
 
                   <div class="pt-1 mb-1">
                     <NuxtLink to="/Home">
-                    <button class="btn btn-dark btn-lg btn-block" type="button">Login</button>
+                    <button class="btn btn-dark btn-lg btn-block shadow-none" type="button">Login</button>
                     </NuxtLink>
                   </div>
 
