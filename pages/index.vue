@@ -39,8 +39,6 @@
                     <NuxtLink to="/Home">
                     <button class="btn btn-dark btn-lg btn-block" type="button">Login</button>
                     </NuxtLink>
-
-
                   </div>
 
                 </form>

@@ -1,12 +1,15 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <div>
+      <section class="vh-100" style="background-color: #FCFAFA;">
+
      <AppHeader/>
      <div class="container">
         <h1>Outbound page  Component</h1>
 
      </div>
 
+</section>
 
   </div>
 </template>
