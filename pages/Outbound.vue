@@ -7,7 +7,6 @@
         <h1>Outbound page  Component</h1>
      </div>
 </section>
-
   </div>
 </template>
 
