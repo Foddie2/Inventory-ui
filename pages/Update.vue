@@ -2,7 +2,6 @@
 <template>
   <section class="vh-100" style="background-color: #FCFAFA;">
   <div>
-
   <AppHeader/>
   <div class="container">
     <h2>Update page</h2>

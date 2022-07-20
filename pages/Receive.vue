@@ -2,7 +2,6 @@
 <template>
   <div>
     <section class="vh-100" style="background-color: #FCFAFA;">
-
     <AppHeader/>
   <div class="container">
       <h1>Receive page component</h1>
