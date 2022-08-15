@@ -58,7 +58,6 @@
             hid: 'description',
             name: 'description',
             content: 'Login and continue taking inventory '
-
           }
         ]
       };
